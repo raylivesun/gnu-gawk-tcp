@@ -1,0 +1,7 @@
+;; Object gnu-gawk-tcp
+;; EDE Project Files are auto generated: Do Not Edit
+(ede-proj-project "gnu-gawk-tcp"
+  :file "Project.ede"
+  :name "gnu-gawk-tcp"
+  :targets nil
+  :object-name "gnu-gawk-tcp")

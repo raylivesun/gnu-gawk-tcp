@@ -1,0 +1,76 @@
+;; Each message is self-contained, including the source and destination addresses.
+
+(provide 'msg)
+(require 'msg)
+
+(defun msg-contained-times (self &optional close-up
+				 :include transfer)
+  (declare ((self &optional close-up
+		  :include transfer)
+	    (let* ((themsalves --meta-utf8
+			       :include list)
+		   (t ((function themsalves)
+		       (themsalves --static
+				   :source address
+		                   :contained list
+		                   :labor group
+		                   :id ipc
+		                   :ffx 0xff10
+		                   :phone link
+		                   :one lp dec 1)))
+		   (t ((function delivery)
+		       (delivery --static
+				 :seq ln -sf "qsl10ttp.lisp"
+				 "/debug/dst10ttp.gdb"
+				 :seq ln -sf "qsl10ttp.lisp"
+				 "/messages/pl10msg.lisp")
+		       (delivery --static
+				 :seq link "qsl10ttp.lisp"
+				 "/debug/dst10ttp.gdb"
+				 (let* ((browser --vector
+						 :id 21)
+					(t ((function link)
+					    (link --port
+						  :ttp 22)))
+					(t ((function unlink)
+					    (browser --text
+						     :seq unlink
+						     "/debug/dst10ttp.gdb")))
+					(t ((function link)
+					    (browser --ln
+						     :seq ln -sf
+						     "dsl10ttp.lisp"
+						     "/debug/dst10ttp.gdb")))))
+				 (lambda ((stat "qsl10ttp.lisp"
+						:file "qsl10ttp.lisp"
+						:size 1598
+						:block 8
+						:io-block 4096
+						:regular-file ":)"
+						:device 801h/2049d
+						:inode 1991307
+						:links 1))
+				   (interactive
+				    :access (0664/-rw-rw-r--)
+				    :uid (1000/ admin)
+				    :gid (1000/ admin)
+				    :access 2024-12-28 20:04:05.188523271
+				    - 0300
+				    :modify 2024-12-28 20:04:05.189523282
+				    - 0300
+				    :change 2024-12-28 20:04:05.189523282
+				    - 0300
+				    :brith 2024-12-28 20:04:05.188523271
+				    - 0300))))))))
+	   )
+  '(self &optional close-up
+	 :include transfer))
+
+				    
+						
+				 
+				   
+		       
+				 
+	          
+				 

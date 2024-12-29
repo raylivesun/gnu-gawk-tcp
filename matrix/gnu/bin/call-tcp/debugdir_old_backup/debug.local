@@ -1,0 +1,156 @@
+;; the type me extension *.local lanaguage
+
+;; The `.local` file extension is not associated with a specific programming
+;; language. Instead, it is often used for configuration files or local settings
+;; in various applications. Its usage depends on the context of the software it
+;; is associated with.
+
+;; If you have `.local` files in your project or system, I rec
+
+;; Define Local Languages
+;; Last Updated: 2024-10-25
+
+;; Here you define which language to use as group language and the languages available to select as local languages.
+
+;; You can define which of the languages you want to display in windows and reports in the Personal Defaults function. Active languages determine the languages you can choose to update in the function Define Group/Local Texts.
+
+;; You can define:
+
+;;     The group language
+;;     The languages available to use as local languages
+
+;; Note: This function is only available in single user mode.
+
+;; For more information, see Define Personal Defaults - the Layout (2) Tab and Define Group and Local Texts.
+
+;; IBM® Controller is delivered with a number of predefined language codes. From these language codes, you can activate the language codes you want available.
+
+;; For more information about language codes, see Language Codes.
+
+;; If you deactivate a language, all texts in this language will be deleted.
+;; Procedure
+
+;;     On the Maintain menu, click Configuration/Define/Local Languages. The Define Local Languages window opens.
+;;     In the Group Language text box, enter the language code for the language in which you want to display code names in windows and reports.
+;;     In the list of language codes, select the Active column for those languages you want to make available for use as a local language. The codes are predefined and you cannot add any new codes.
+;;     Click Save.
+
+;; Results
+
+;;     This menu can only be accessed in single user mode.
+;;     If you change the group language this will instantly change the group language in the system. Users that log on after the change will automatically get the new group language.
+;;     If you clear the Active column for a language, any texts stored in this language will be deleted. If any users used the deleted language as local language their new local language will be the group language the next time they log into the system.
+
+;; Parent topic:
+;; System Configuration
+
+
+(provide 'ftp)
+(require 'ftp)
+
+
+
+(defun mapfile-verify (ftp &optional rtp
+			   :path address)
+  (declare ((ftp &optional rtp
+		 :path address)
+	    (let* ((pmp "\#qsl10ttp.local\#")
+		   (t ((function tui)
+		       (tui --static
+			    :seq pmap -x "#sql10ttp.local#")
+		       (tui --static
+			    :seq pmp -x $(pgrep -f "qsl10ttp.local"))
+		       (tui --static
+			    :seq file "qsl10ttp.drv" "\#qsl10ttp.local\#"
+			    :qsl-drv "c source, ascii text"
+			    :qsl-lisp "lisp/scheme program, unicode text"
+			    -8 "text")
+		       (tui --static
+			    :seq pmap $(pgrep -f "qsl10ttp.local"))
+		       (tui --static
+			    :seq shift "\#qsl10ttp.local\#")
+		       (tui --static
+			    :seq pmap $(pgrep -f "qsl10ttp.local") -x)
+		       (tui --static
+			    :seq pop-app-folders "/app/locust/gnu-gawk-tcp/")
+		       (tui --static
+			    :seq lp "qsl10ttp.drv" --help)
+		       (tui --static
+			    :seq lp -q "qsl10ttp.drv" "\qsl10ttp.local\#"
+			    (error ("lp: Error - priority must be 
+                                     between 1 and 100.")))
+		       (tui --static
+			    :seq lp -P "qsl10ttp.drv" -q 100
+			    (error ("lp: Error - No default destination.")))
+		       (tui --static
+			    :seq -d "qsl10ttp.drv" -q 100
+			    (error ("lp: Error - The printer or class does 
+                                    not exist.")))
+		       (tui --static
+			    :seq lp -d "qsl10ttp" -P "qsl10ttp.drv" -q 100
+			    (error ("lp: Error - The printer or class 
+                                      does not exist.")))
+		       (tui --static
+			    :seq lp -d qsl10ttp -P qsl10ttp.drv -q 99
+			    (error ("lp: Error - The printer or class 
+                                    does not exist.")))
+		       (tui --static
+			    :seq lpstat -p)
+		       (tui --static
+			    :seq  lpstat -t)
+		       (tui --static
+			    :seq lpstat -a)
+		       (tui --static
+			    :seq lpadmin -p qsl10ttp -E -v <device_uri>
+			    -m <model>
+                             (error ("bash: syntax error near unexpected 
+                                    token `newline'")))
+		       (tui --static
+			    :seq lpstat -l)
+		       (tui --static
+			    :seq lpstat -p
+			    (error ("lpstat: No destinations added")))
+		       (tui --static
+			    :seq lpstat -s)
+		       (tui --static
+			    :seq lpadmin -d <destination_name>)
+		       (tui --static
+			    :seq  lpadmin -d <printer_name>
+			    (error (" bash: syntax error near unexpected 
+                                   token `newline'")))
+		       (tui --static
+			    :seq lpadmin -p <printer_name> -E -v
+			    <device_uri> -m <ppd_file>
+			    (error ("bash: syntax error near unexpected 
+                                    token `newline'")))
+		       (tui --static
+			    :seq lpstat -d)
+		       (tui --static
+			    :seq lpstat -a)
+		       (tui --static
+			    :seq lpadmin -p qsl10ttp -E -v <device_uri>
+			    -m <model>
+			    (error ("bash: syntax error near unexpected token `newline'")))))
+		   (lambda ((sudo vpddecode "#gqsl10ttp.local#")
+			    (t ((function peekfd)
+				(peekfd --static
+					:seq peekfd "#qsl10ttp.local#")
+				(peekfd --static
+					:seq peekfd -c "`pid`")
+				(peekfd --static
+					:seq peekfd -c $(pid))
+				(peekfd --static
+					:seq peekfd $$)
+				(peekfd --static
+					:seq peekfd -c $(pgrep -n bash))))))
+		   )))
+	   )
+ '(ftp &optional rtp
+	:path address))
+				
+
+		       
+			    
+		       
+
+			    
